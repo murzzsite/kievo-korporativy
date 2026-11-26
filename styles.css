@@ -20,7 +20,9 @@ a{color:inherit}
 .head__in{max-width:1180px;margin:0 auto;height:var(--hh);padding:0 20px;display:flex;align-items:center;gap:24px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
 .brand__mk{width:30px;height:30px}
-.brand__t{font:600 20px/1 var(--fd);letter-spacing:-.02em}
+.brand__t{display:flex;flex-direction:column;gap:3px;font:600 20px/1 var(--fd);letter-spacing:-.04em;font-variation-settings:"wght" 600}
+.brand__s{font-size:9px;font-weight:500;letter-spacing:.02em;white-space:nowrap}
+.hero__name{font:600 clamp(18px,2.4vw,28px)/1.1 var(--fd);letter-spacing:-.04em;font-variation-settings:"wght" 600;margin:0 0 14px;color:var(--blue)}
 .nav{display:flex;gap:26px;font-size:15px;font-weight:500}
 .nav a{text-decoration:none;color:var(--muted)}
 .nav a:hover{color:var(--ink)}
